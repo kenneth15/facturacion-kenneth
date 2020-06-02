@@ -20,7 +20,7 @@ describe('Test Suite Server Graphql', ()=> {
 
 .then(response => response.json())
 .then((response) =>{
-    expect(response).toEqual({"data": {"me": {"id": "5","name": "YoniTores"} } } )
+    expect(response).toEqual({"data": {"me": {"id": "5","name": "kenneth"} } } )
 })
 })
 })
