@@ -1,0 +1,40 @@
+{
+  "name": "facturacion-electronica",
+  "version": "0.0.1",
+  "description": "facturacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoniTorres/facturacion-electronica.git"
+  },
+  "keywords": [
+    "facturacion",
+    "electronica",
+    "peru",
+    "trentino",
+    "academico",
+    "negocios",
+    "business",
+    "server",
+    "api"
+  ],
+  "author": "yonitorreslink@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YoniTorres/facturacion-electronica/issues"
+  },
+  "homepage": "https://github.com/YoniTorres/facturacion-electronica#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
